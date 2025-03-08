@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 header{
     background-color: #800000;
@@ -11,7 +11,8 @@ header{
     padding: 0px;
 }
 .titulo{
-    font-family:'Montserrat', sans-serif;
+    font-family:'Rubik', sans-serif;
+    font-style: italic;
     color: #fff;
 
 }
