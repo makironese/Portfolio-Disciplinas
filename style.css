@@ -49,15 +49,6 @@ header{
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.esquerda {
-    font-size: 20px;
-    font-weight: bold;
-}
-.direita {
-    font-size: 20px;
-    font-style: italic;
-    justify-content: space-between
-}
 body{
     background-color: black;
 }
