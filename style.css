@@ -5,4 +5,7 @@
 
 header{
     background-color: #000000;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
 }
