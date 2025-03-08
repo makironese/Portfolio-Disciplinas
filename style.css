@@ -4,11 +4,11 @@
 }
 
 header{
-    background-color: #000000;
+    background-color: #800000;
     align-items: center;
     justify-content: space-between;
     padding: 0px;
 }
 .titulo{
-    color: #800000;
+    color: #fff;
 }
