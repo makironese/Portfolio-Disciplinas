@@ -11,13 +11,6 @@ header{
     padding: 20px;
     display:flex;
 }
-.direita {
-    display: flex;
-    gap: 20px;
-    font-size: 20px;
-    font-family: 'Rubik', sans-serif;
-    font-style: italic;
-    color: #fff;
 }
 .dropdown {
     position: relative;
