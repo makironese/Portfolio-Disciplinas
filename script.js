@@ -1,3 +1,3 @@
 document.getElementById("Biologia").addEventListener("click", function() {
-    window.location.href = "outra-pagina.html";
+    window.open.href = "outra-pagina.html";
 });
