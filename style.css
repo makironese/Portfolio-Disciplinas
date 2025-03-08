@@ -64,6 +64,7 @@ header{
 .direita {
     font-size: 20px;
     font-style: italic;
+    justify-content: right;
 }
 body{
     background-color: black;
