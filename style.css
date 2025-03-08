@@ -41,6 +41,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 60px;
+    font-family: 'Rubik'sans-serif;
+    font-style: italic;
 }
 .centros{
     color:#B22222;
@@ -50,6 +52,7 @@ body{
     left: 55%;
     transform: translate(-55%, -55%);
     font-size: 50px;
-
+font-family: 'Rubik'sans-serif;
+font-style: italic;
 }
 
