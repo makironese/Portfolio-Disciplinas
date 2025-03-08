@@ -19,17 +19,6 @@ header{
     font-style: italic;
     color: #fff;
 }
-.item {
-    font-size: 20px;
-    font-weight: bold;
-}
-.titulo{
-    font-family:'Rubik', sans-serif;
-    font-style: italic;
-    font-weight: 800;
-    color: #fff;
-font-size: 30px;
-}
 body{
     background-color: black;
 }
