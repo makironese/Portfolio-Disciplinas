@@ -19,6 +19,10 @@ header{
     font-style: italic;
     color: #fff;
 }
+.item {
+    font-size: 18px;
+    font-weight: bold;
+}
 .titulo{
     font-family:'Rubik', sans-serif;
     font-style: italic;
