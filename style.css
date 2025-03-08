@@ -11,9 +11,51 @@ header{
     padding: 20px;
     display:flex;
 }
-.direita{
+.direita {
+    display: flex;
+    gap: 20px;
     font-size: 20px;
+    font-family: 'Rubik', sans-serif;
     font-style: italic;
+    color: #fff;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown button {
+    background-color: #860000;
+    color: #ddd;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    color: #ddd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 body{
     background-color: black;
