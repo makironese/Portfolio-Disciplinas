@@ -13,7 +13,9 @@ header{
 }
 .direita {
     font-size: 30px;
+    font-family: 'Rubik', sans-serif;
     font-style: italic;
+    color: #fff;
 }
 .titulo{
     font-family:'Rubik', sans-serif;
