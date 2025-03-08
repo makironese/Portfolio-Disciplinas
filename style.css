@@ -12,7 +12,7 @@ header{
     display:flex;
 }
 .direita {
-    font-size: 20px;
+    font-size: 0px;
     font-style: italic;
 }
 .titulo{
