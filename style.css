@@ -2,12 +2,11 @@
     margin: 0px;
     padding: 0px;
 }
-
+.title{ color: #4B0082;
+}
 header{
     background-color: #000000;
     align-items: center;
     justify-content: space-between;
     padding: 0px;
-    .title{ color: #4B0082;
-    }
 }
