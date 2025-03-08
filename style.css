@@ -44,5 +44,10 @@ body{
 }
 .centros{
     color:#fff;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    transform: translate(-55%, -55%);
 
 }
