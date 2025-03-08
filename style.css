@@ -8,4 +8,6 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 0px;
+    .title{ color: #4B0082;
+    }
 }
