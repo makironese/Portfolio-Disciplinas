@@ -1,3 +1,3 @@
-document.getElementById("Biologia").addEventListener("click", function() {
+document.getElementById("AbrirPaginaBiologia").addEventListener("click", function() {
     window.open.href = "Biologia";
 });
