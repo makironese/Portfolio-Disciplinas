@@ -10,7 +10,7 @@ header{
     justify-content: space-between;
     padding: 20px;
     display:flex;
-
+    width: 100%;
 }
 .dropdown {
     position: relative;
@@ -78,6 +78,7 @@ font-style: italic;
 .menu-superior{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     gap: 20px;
     padding: 10px;
     list-style: none;
