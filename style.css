@@ -94,7 +94,7 @@ font-style: italic;
 }
 
 .menu-superior li:hover{
-    background-color: aquamarine;
+    background-color: rgb(193, 127, 255);
     border-radius: 5px;
     cursor: pointer;
 }
