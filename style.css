@@ -74,3 +74,22 @@ font-family: 'Rubik'sans-serif;
 font-style: italic;
 }
 
+.menu-superior{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    list-style: none;
+}
+
+.menu-superior li{
+    color: black;
+    font-weight: bold;
+    padding: 10px 15px
+}
+
+.menu-superior li:hover{
+    background-color: aquamarine;
+    border-radius: 5px;
+    cursor: pointer;
+}
