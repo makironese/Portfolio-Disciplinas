@@ -6,10 +6,10 @@
 
 header{
     background-color: #800000;
+    display: flex;
+    justify-content: space-between; /* Menu hambúrguer à esquerda, botões à direita */
     align-items: center;
-    justify-content: space-between;
     padding: 10px;
-    display:flex;
     width: 100%;
 }
 .dropdown {
@@ -78,12 +78,12 @@ font-style: italic;
 
 .menu-superior{
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end; /* Move os itens para a direita */
     align-items: center;
     gap: 20px;
-    padding: 0px;
-    margin: 0;
     list-style: none;
+    padding: 0;
+    margin: 0;
     
 }
 
