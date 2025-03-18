@@ -7,7 +7,7 @@
 header{
     background-color: #800000;
     display: flex;
-    justify-content: space-between; /* Menu hambúrguer à esquerda, botões à direita */
+    justify-content: space-between; 
     align-items: center;
     padding: 10px;
     width: 100%;
@@ -78,7 +78,7 @@ font-style: italic;
 
 .menu-superior{
     display: flex;
-    justify-content: flex-end; /* Move os itens para a direita */
+    justify-content: flex-end; 
     align-items: center;
     gap: 20px;
     list-style: none;
