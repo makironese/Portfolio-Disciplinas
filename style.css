@@ -6,22 +6,22 @@
 
 header{
     background-color: #800000;
-    display: flex; /*alinhas e organiza os elemtnos dentro de uma classe*/
-    justify-content: space-between; /*distribui os elementos horizontalmente se o espeaço livre nao for preencjhido*/
+    display: flex;
+    justify-content: space-between; 
     align-items: center;
     padding: 10px;
     width: 100%;
 }
 .dropdown {
-    position: relative; /*serve pra posicionar o elemento de acordo com as indcaçoes q vc efinir*/
-    display: inline-block; /*serão automaticamente colocados um ao lado do outro na mesma linha*/
-    flex-shrink: 0; /*controla a redução de elementos dentro de uma classe*/
+    position: relative; 
+    display: inline-block; 
+    flex-shrink: 0;
 }
 
 .dropdown button {
     background-color: #860000;
     color: #ddd;
-    border-radius: 8px; /*arredondado*/
+    border-radius: 8px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -29,11 +29,11 @@ header{
 
 .dropdown-content {
     display: none;
-    position: absolute; /*parte do ponto superior esquerdo a outros elemtnos*/
+    position: absolute; 
     background-color: #000000;
     color: #ddd;
     min-width: 160px;
-    z-index: 1; /*sobreposição de itens*/
+    z-index: 1; 
 }
 
 .dropdown-content a {
@@ -59,7 +59,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /*vertical ou horiontal*/
+    transform: translate(-50%, -50%); 
     font-size: 60px;
     font-family: 'Rubik'sans-serif;
     font-style: italic;
@@ -80,7 +80,7 @@ font-style: italic;
     display: flex;
     justify-content: flex-end; 
     align-items: center;
-    gap: 20px;  /*especifica o espaço entre linhas e colunas*/
+    gap: 20px;  
     list-style: none;
     padding: 0;
     margin: 0;
