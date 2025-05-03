@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matemática - Logaritmos</title>
+    <title>Matemática - Funções Quadráticas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -28,34 +28,62 @@
     </header>
 
     <main style="color: white; padding: 40px; font-family: 'Rubik', sans-serif;">
-        <h1 style="color: #800000; font-size: 48px;">Matemática - Logaritmos</h1>
+        <h1 style="color: #800000; font-size: 48px;">Matemática - Funções Quadráticas</h1>
 
-        <h2 style="margin-top: 20px; color: #B22222;">Resumo sobre Logaritmos</h2>
-        <p>O logaritmo é o inverso da potência. Ele responde à pergunta: <strong>“qual expoente devemos usar para obter um determinado número?”</strong></p>
-
-        <p>Por exemplo, no logaritmo <code>log₂(8) = 3</code>, isso significa que <code>2³ = 8</code>.</p>
-
-        <h3>Definição:</h3>
-        <p>Se <code>a<sup>x</sup> = b</code>, então <code>log<sub>a</sub>(b) = x</code></p>
-
+        <h2 style="margin-top: 20px; color: #B22222;">O que é uma Função Quadrática?</h2>
+        <p>Uma função quadrática é uma função do tipo:</p>
+        <pre>f(x) = ax² + bx + c</pre>
+        <p>Onde:</p>
         <ul>
-            <li><strong>a</strong> é a base do logaritmo (deve ser positiva e diferente de 1)</li>
-            <li><strong>b</strong> é o número do qual queremos o logaritmo (positivo)</li>
-            <li><strong>x</strong> é o logaritmo — o resultado</li>
+            <li><strong>a</strong>, <strong>b</strong> e <strong>c</strong> são constantes (com <strong>a ≠ 0</strong>);</li>
+            <li><strong>x</strong> é a variável independente;</li>
+            <li>O gráfico dessa função é uma parábola, que pode abrir para cima ou para baixo, dependendo do valor de <strong>a</strong>.</li>
         </ul>
 
-        <h3>Exemplos:</h3>
+        <h2 style="margin-top: 40px; color: #B22222;">Propriedades da Função Quadrática</h2>
         <ul>
-            <li><code>log₁₀(1000) = 3</code>, pois <code>10³ = 1000</code></li>
-            <li><code>log₂(32) = 5</code>, pois <code>2⁵ = 32</code></li>
+            <li><strong>Vértice:</strong> O ponto mais alto ou mais baixo da parábola, dependendo de a parábola abrir para cima ou para baixo.</li>
+            <li><strong>Coeficiente "a":</strong> Determina a concavidade da parábola. Se <strong>a &gt; 0</strong>, a parábola abre para cima. Se <strong>a &lt; 0</strong>, a parábola abre para baixo.</li>
+            <li><strong>Raízes ou Zeros:</strong> São os valores de <strong>x</strong> que fazem com que a função seja igual a zero (f(x) = 0). Podem ser encontrados pela fórmula de Bhaskara.</li>
         </ul>
 
-        <h3>Aplicações:</h3>
-        <p>Logaritmos são usados para resolver equações exponenciais, analisar crescimento populacional, calcular juros compostos, e em escalas como a de Richter (terremotos) ou decibéis (intensidade sonora).</p>
+        <h2 style="margin-top: 40px; color: #B22222;">Fórmula de Bhaskara</h2>
+        <p>A fórmula de Bhaskara é utilizada para resolver equações quadráticas. Para uma equação do tipo:</p>
+        <pre>ax² + bx + c = 0</pre>
+        <p>A solução para <strong>x</strong> é dada por:</p>
+        <pre>x = (-b ± √(b² - 4ac)) / 2a</pre>
+        <p>Onde:</p>
+        <ul>
+            <li><strong>b² - 4ac</strong> é chamado de discriminante. Dependendo do seu valor, ele pode indicar:</li>
+            <ul>
+                <li>Se <strong>b² - 4ac &gt; 0</strong>, existem duas raízes reais diferentes;</li>
+                <li>Se <strong>b² - 4ac = 0</strong>, existe uma raiz real (a parábola toca o eixo x em um único ponto);</li>
+                <li>Se <strong>b² - 4ac &lt; 0</strong>, não existem raízes reais (a parábola não toca o eixo x).</li>
+            </ul>
+        </ul>
 
-        <p><a href="index.html" style="color: #B22222; text-decoration: none;">Voltar para a Página Inicial</a></p>
+        <h3>Exemplo:</h3>
+        <p>Vamos resolver a equação <strong>x² - 5x + 6 = 0</strong> utilizando a fórmula de Bhaskara:</p>
+        <pre>a = 1, b = -5, c = 6</pre>
+        <p>Calculando o discriminante:</p>
+        <pre>Δ = (-5)² - 4(1)(6) = 25 - 24 = 1</pre>
+        <p>Agora, aplicamos a fórmula de Bhaskara:</p>
+        <pre>x = (5 ± √(1)) / 2 = (5 ± 1) / 2</pre>
+        <p>Então, as raízes são:</p>
+        <ul>
+            <li><strong>x₁ = (5 + 1) / 2 = 3</strong></li>
+            <li><strong>x₂ = (5 - 1) / 2 = 2</strong></li>
+        </ul>
+
+        <h2 style="margin-top: 40px; color: #B22222;">Data de Prova</h2>
+        <p><strong>Data da Prova:</strong> 20 de Maio de 2025</p>
+        <p><strong>Conteúdo:</strong> Funções Quadráticas, Fórmula de Bhaskara, e outras propriedades das funções do segundo grau.</p>
+
+        <!-- Botão para voltar à página inicial -->
+        <p><a href="index.html" style="color: white; background-color: #800000; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Voltar para a Página Inicial</a></p>
     </main>
 </body>
 
 </html>
+
 
