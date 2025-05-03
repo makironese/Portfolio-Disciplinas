@@ -8,7 +8,7 @@
 
 body {
     background-color: black;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif; /* Corrigido para garantir que a fonte 'Rubik' seja usada em todo o site */
     color: white;
 }
 
@@ -115,6 +115,7 @@ header {
 main {
     padding: 40px;
     font-size: 18px;
+    font-family: 'Rubik', sans-serif; /* Certificando que a fonte Rubik também é aplicada ao conteúdo */
 }
 
 h1 {
@@ -198,4 +199,5 @@ a:hover {
         font-size: 35px;
     }
 }
+
 
